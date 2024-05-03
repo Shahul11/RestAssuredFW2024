@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [API Regression Suite]" guice-stage="DEVELOPMENT" verbose="4">
+  <listeners>
+    <listener class-name="com.qa.gorest.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="Circuit API Test(failed)" verbose="4">
+    <parameter name="baseURI" value="http://ergast.com"/>
+    <classes>
+      <class name="com.qa.gorest.tests.CircuitTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="getAllUsersTest"/>
+          <include name="getUserSetup"/>
+        </methods>
+      </class> <!-- com.qa.gorest.tests.CircuitTest -->
+    </classes>
+  </test> <!-- Circuit API Test(failed) -->
+</suite> <!-- Failed suite [API Regression Suite] -->

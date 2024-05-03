@@ -1,0 +1,1 @@
+{"uuid":"8ec6db02-da5a-4cb4-ac7d-c34373706a9f","name":"Amadeus API Test","children":["817983f0-0942-4d66-8bbd-a8a4eed03164"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1714461741552,"stop":1714461741855}],"afters":[],"start":1714461741525,"stop":1714461749166}
